@@ -1,0 +1,106 @@
+{
+   "Operation_Broken_Fang_Case": [
+      {
+         "Name": "G3SG1 | Digital Mesh",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P90 | Cocoa Rampage",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "CZ75-Auto | Vendetta",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MP5-SD | Condition Zero",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Contaminant",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "M249 | Deep Relief",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Galil AR | Vandal",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "UMP-45 | Gold Bismuth",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "Nova | Clear Polymer",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Dual Berettas | Dezastre",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SSG 08 | Parallax",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Exoskeleton",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Fairy Tale",
+         "Rarity": "Classified",
+         "FloatMin": 0.02,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "USP-S | Monster Mashup",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "M4A4 | Cyber Security",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.98
+      },
+      {
+         "Name": "Glock-18 | Neo-Noir",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M4A1-S | Printstream",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      }
+   ]
+}

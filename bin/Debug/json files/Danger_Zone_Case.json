@@ -1,0 +1,106 @@
+{
+   "Danger_Zone_Case": [
+      {
+         "Name": "MP9 | Modest Threat",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "Glock-18 | Oxide Blaze",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.85
+      },
+      {
+         "Name": "Nova | Wood Fired",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "M4A4 | Magnesium",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Sawed-Off | Black Sand",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "SG 553 | Danger Close",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.02,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Tec-9 | Fubar",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.14,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "G3SG1 | Scavenger",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "Galil AR | Signal",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "MAC-10 | Pipe Down",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "P250 | Nevermore",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "USP-S | Flashback",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "UMP-45 | Momentum",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Desert Eagle | Mecha Industries",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "MP5-SD | Phosphor",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AK-47 | Asiimov",
+         "Rarity": "Covert",
+         "FloatMin": 0.05,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "AWP | Neo-Noir",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      }
+   ]
+}

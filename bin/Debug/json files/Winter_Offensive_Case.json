@@ -1,0 +1,82 @@
+{
+   "Winter_Offensive_Case": [
+      {
+         "Name": "M249 | Magma",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "Five-SeveN | Kami",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.3
+      },
+      {
+         "Name": "PP-Bizon | Cobalt Halftone",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.05,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "Galil AR | Sandstorm",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "Nova | Rising Skull",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "FAMAS | Pulse",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "MP9 | Rose Iron",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.3
+      },
+      {
+         "Name": "Dual Berettas | Marina",
+         "Rarity": "Restricted",
+         "FloatMin": 0.05,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "P250 | Mehndi",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M4A1-S | Guardian",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "AWP | Redline",
+         "Rarity": "Classified",
+         "FloatMin": 0.1,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "Sawed-Off | The Kraken",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "M4A4 | Asiimov",
+         "Rarity": "Covert",
+         "FloatMin": 0.18,
+         "FloatMax": 1.0
+      }
+   ]
+}

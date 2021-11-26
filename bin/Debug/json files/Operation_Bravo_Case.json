@@ -1,0 +1,94 @@
+{
+   "Operation_Bravo_Case": [
+      {
+         "Name": "G3SG1 | Demeter",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Dual Berettas | Black Limba",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "UMP-45 | Bone Pile",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.34
+      },
+      {
+         "Name": "Nova | Tempest",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.22
+      },
+      {
+         "Name": "SG 553 | Wave Spray",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Galil AR | Shattered",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "M4A1-S | Bright Water",
+         "Rarity": "Restricted",
+         "FloatMin": 0.1,
+         "FloatMax": 0.22
+      },
+      {
+         "Name": "M4A4 | Zirka",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.42
+      },
+      {
+         "Name": "MAC-10 | Graven",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "USP-S | Overgrowth",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AWP | Graphite",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.12
+      },
+      {
+         "Name": "P2000 | Ocean Foam",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.12
+      },
+      {
+         "Name": "P90 | Emerald Dragon",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.52
+      },
+      {
+         "Name": "Desert Eagle | Golden Koi",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.12
+      },
+      {
+         "Name": "AK-47 | Fire Serpent",
+         "Rarity": "Covert",
+         "FloatMin": 0.06,
+         "FloatMax": 0.76
+      }
+   ]
+}

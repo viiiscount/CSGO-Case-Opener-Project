@@ -1,0 +1,106 @@
+{
+   "Operation_Hydra_Case": [
+      {
+         "Name": "UMP-45 | Metal Flowers",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "MAG-7 | Hard Water",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "FAMAS | Macabre",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "MAC-10 | Aloha",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "Tec-9 | Cut Out",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M4A1-S | Briefing",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "USP-S | Blueprint",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.86
+      },
+      {
+         "Name": "SSG 08 | Death's Head",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.51
+      },
+      {
+         "Name": "P250 | Red Rock",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P2000 | Woodsman",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P90 | Death Grip",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AK-47 | Orbit Mk01",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "Galil AR | Sugar Rush",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "Dual Berettas | Cobra Strike",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "M4A4 | Hellfire",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Five-SeveN | Hyper Beast",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Oni Taiji",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      }
+   ]
+}

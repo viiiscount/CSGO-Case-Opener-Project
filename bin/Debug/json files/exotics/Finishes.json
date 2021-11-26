@@ -1,0 +1,160 @@
+{
+   "Finishes": [
+	  {
+         "Name": "Vanilla",
+		 "FloatMin": 0.0,
+         "FloatMax": 1.0,
+         "FinishID": 1.0
+      },
+      {
+         "Name": "Scorched",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Boreal Forest",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Safari Mesh",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Forest DDPAT",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Urban Masked",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Blue Steel",
+		 "FloatMin": 0.0,
+         "FloatMax": 1.0,
+         "FinishID": 1.0
+      }, 
+	  {
+         "Name": "Stained",
+		 "FloatMin": 0.0,
+         "FloatMax": 1.0,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Crimson Web",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Night",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Case Hardened",
+		 "FloatMin": 0.0,
+         "FloatMax": 1.0,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Fade",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.08,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Slaughter",
+		 "FloatMin": 0.01,
+         "FloatMax": 0.26,
+         "FinishID": 1.0
+      },
+	  {
+         "Name": "Ultraviolet",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Rust Coat",
+		 "FloatMin": 0.4,
+         "FloatMax": 1.0,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Damascus Steel",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.5,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Doppler",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.08,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Tiger Tooth",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.08,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Marble Fade",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.08,
+         "FinishID": 2.0
+      },
+	  {
+         "Name": "Bright Water",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.5,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Freehand",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.48,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Black Laminate",
+		 "FloatMin": 0.0,
+         "FloatMax": 1.0,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Autotronic",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.85,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Lore",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.65,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Gamma Doppler",
+		 "FloatMin": 0.0,
+         "FloatMax": 0.08,
+         "FinishID": 3.0
+      },
+	  {
+         "Name": "Gloves",
+		 "FloatMin": 0.06,
+         "FloatMax": 0.8,
+         "FinishID": 4.0
+      }
+   ]
+}

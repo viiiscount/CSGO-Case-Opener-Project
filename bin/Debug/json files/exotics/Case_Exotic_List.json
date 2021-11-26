@@ -1,0 +1,220 @@
+{
+   "Case_Exotic_List": [
+      {
+         "Name": "Weapon_Case_1",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "eSports_2013_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Operation_Bravo_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Weapon_Case_2",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "eSports_2013_Winter_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Winter_Offensive_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Weapon_Case_3",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Operation_Phoenix_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Huntsman_Case",
+         "SetID": 0.0,
+         "ExoticID": 10.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Operation_Breakout_Case",
+         "SetID": 0.0,
+         "ExoticID": 9.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "eSports_2014_Summer_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Operation_Vanguard_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Chroma_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "Chroma_2_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "Falchion_Case",
+         "SetID": 0.0,
+         "ExoticID": 8.0,
+		 "FinishID": 1.0
+      },
+	  {
+         "Name": "Shadow_Case",
+         "SetID": 0.0,
+         "ExoticID": 7.0,
+		 "FinishID": 1.0
+      },
+	  {
+         "Name": "Revolver_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+	  {
+         "Name": "Operation_Wildfire_Case",
+         "SetID": 0.0,
+         "ExoticID": 6.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Chroma_3_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "Gamma_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 3.0
+      },
+      {
+         "Name": "Gamma_2_Case",
+         "SetID": 1.0,
+         "ExoticID": 0.0,
+		 "FinishID": 3.0
+      },
+      {
+         "Name": "Glove_Case",
+         "SetID": 6.0,
+         "ExoticID": 0.0,
+		 "FinishID": 4.0
+      },
+      {
+         "Name": "Spectrum_Case",
+         "SetID": 2.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "Operation_Hydra_Case",
+         "SetID": 6.0,
+         "ExoticID": 0.0,
+		 "FinishID": 4.0
+      },
+      {
+         "Name": "Spectrum_2_Case",
+         "SetID": 2.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "Clutch_Case",
+         "SetID": 6.0,
+         "ExoticID": 0.0,
+		 "FinishID": 4.0
+      },
+      {
+         "Name": "Horizon_Case",
+         "SetID": 3.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Danger_Zone_Case",
+         "SetID": 3.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Prisma_Case",
+         "SetID": 3.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+      {
+         "Name": "CS20_Case",
+         "SetID": 5.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Shattered_Web_Case",
+         "SetID": 4.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+      {
+         "Name": "Prisma_2_Case",
+         "SetID": 3.0,
+         "ExoticID": 0.0,
+		 "FinishID": 2.0
+      },
+	  {
+         "Name": "Fracture_Case",
+         "SetID": 4.0,
+         "ExoticID": 0.0,
+		 "FinishID": 1.0
+      },
+	  {
+         "Name": "Operation_Broken_Fang_Case",
+         "SetID": 6.0,
+         "ExoticID": 0.0,
+		 "FinishID": 4.0
+      },
+	  {
+         "Name": "Snakebite_Case",
+         "SetID": 6.0,
+         "ExoticID": 0.0,
+		 "FinishID": 4.0
+      },
+	  {
+         "Name": "Operation_Riptide_Case",
+         "SetID": 2.0,
+         "ExoticID": 0.0,
+		 "FinishID": 3.0
+      }
+   ]
+}

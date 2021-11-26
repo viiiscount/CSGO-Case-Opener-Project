@@ -1,0 +1,106 @@
+{
+   "Operation_Riptide_Case": [
+      {
+         "Name": "AUG | Plague",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.76
+      },
+      {
+         "Name": "Dual Berettas | Tread",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "G3SG1 | Keeping Tabs",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "MP7 | Guerrilla",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Lumen",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.77
+      },
+      {
+         "Name": "USP-S | Black Lotus",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "XM1014 | Watchdog",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAG-7 | BI83 Spectrum",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "FAMAS | ZX Spectron",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Boost Protocol",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.41
+      },
+      {
+         "Name": "MP9 | Mount Fuji",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "M4A4 | Spider Lily",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAC-10 | Toybox",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Snack Attack",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SSG 08 | Turbo Peek",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "AK-47 | Leet Museo",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "Desert Eagle | Ocean Drive",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

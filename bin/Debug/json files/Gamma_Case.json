@@ -1,0 +1,106 @@
+{
+   "Gamma_Case": [
+      {
+         "Name": "PP-Bizon | Harvester",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Nova | Exo",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "MAC-10 | Carnivore",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Iron Clad",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.05,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "SG 553 | Aerial",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "Tec-9 | Ice Cap",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Five-SeveN | Violent Daimyo",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "Sawed-Off | Limelight",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Aristocrat",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.66
+      },
+      {
+         "Name": "P90 | Chopper",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "R8 Revolver | Reboot",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Phobos",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "P2000 | Imperial Dragon",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.63
+      },
+      {
+         "Name": "SCAR-20 | Bloodsport",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "M4A4 | Desolate Space",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Wasteland Rebel",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.54
+      },
+      {
+         "Name": "M4A1-S | Mecha Industries",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      }
+   ]
+}

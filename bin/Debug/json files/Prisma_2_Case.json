@@ -1,0 +1,106 @@
+{
+   "Prisma_2_Case": [
+      {
+         "Name": "AUG | Tom Cat",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AWP | Capillary",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.05,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "CZ75-Auto | Distressed",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Desert Eagle | Blue Ply",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MP5-SD | Desert Strike",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Negev | Prototype",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "R8 Revolver | Bone Forged",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "P2000 | Acid Etched",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Sawed-Off | Apocalypto",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SCAR-20 | Enforcer",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SG 553 | Darkwing",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SSG 08 | Fever Dream",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.72
+      },
+      {
+         "Name": "AK-47 | Phantom Disruptor",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "MAC-10 | Disco Tech",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAG-7 | Justice",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M4A1-S | Player Two",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.84
+      },
+      {
+         "Name": "Glock-18 | Bullet Queen",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

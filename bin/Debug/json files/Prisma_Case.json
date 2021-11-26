@@ -1,0 +1,106 @@
+{
+   "Prisma_Case": [
+      {
+         "Name": "MP7 | Mischief",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "FAMAS | Crypsis",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "MAC-10 | Whitefish",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Verdigris",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "P90 | Off World",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "Galil AR | Akoben",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "AK-47 | Uncharted",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "MP5-SD | Gauss",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "UMP-45 | Moonrise",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "Tec-9 | Bamboozle",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Desert Eagle | Light Rail",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "AWP | Atheris",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "R8 Revolver | Skull Crusher",
+         "Rarity": "Classified",
+         "FloatMin": 0.25,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "XM1014 | Incinegator",
+         "Rarity": "Classified",
+         "FloatMin": 0.14,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "AUG | Momentum",
+         "Rarity": "Classified",
+         "FloatMin": 0.05,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Angry Mob",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "M4A4 | The Emperor",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      }
+   ]
+}

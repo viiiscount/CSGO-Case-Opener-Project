@@ -1,0 +1,88 @@
+{
+   "Operation_Vanguard_Case": [
+      {
+         "Name": "G3SG1 | Murky",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.25
+      },
+      {
+         "Name": "MP9 | Dart",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.46
+      },
+      {
+         "Name": "Five-SeveN | Urban Hazard",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.25
+      },
+      {
+         "Name": "UMP-45 | Delusion",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.35
+      },
+      {
+         "Name": "MAG-7 | Firestarter",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.49
+      },
+      {
+         "Name": "Sawed-Off | Highwayman",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Grinder",
+         "Rarity": "Restricted",
+         "FloatMin": 0.02,
+         "FloatMax": 0.25
+      },
+      {
+         "Name": "M4A4 | Griffin",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "M4A1-S | Basilisk",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.68
+      },
+      {
+         "Name": "SCAR-20 | Cardiac",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Cartel",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "XM1014 | Tranquility",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "P2000 | Fire Elemental",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "AK-47 | Wasteland Rebel",
+         "Rarity": "Covert",
+         "FloatMin": 0.05,
+         "FloatMax": 0.7
+      }
+   ]
+}

@@ -1,0 +1,106 @@
+{
+   "Clutch_Case": [
+      {
+         "Name": "XM1014 | Oxide Blaze",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "SG 553 | Aloha",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "R8 Revolver | Grip",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Night Riot",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P2000 | Urban Hazard",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MP9 | Black Sand",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Flame Test",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "UMP-45 | Arctic Wolf",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Nova | Wild Six",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Negev | Lionfish",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "MAG-7 | SWAG-7",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.92
+      },
+      {
+         "Name": "Glock-18 | Moonrise",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "USP-S | Cortex",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Stymphalian",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.63
+      },
+      {
+         "Name": "AWP | Mortis",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.64
+      },
+      {
+         "Name": "MP7 | Bloodsport",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "M4A4 | Neo-Noir",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.9
+      }
+   ]
+}

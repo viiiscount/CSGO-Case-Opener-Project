@@ -1,0 +1,76 @@
+{
+   "Weapon_Case_3": [
+      {
+         "Name": "P2000 | Red FragCam",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "Dual Berettas | Panther",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.58
+      },
+      {
+         "Name": "Glock-18 | Blue Fissure",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.58
+      },
+	  {
+         "Name": "CZ75-Auto | Crimson Web",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.80
+      },
+	  {
+         "Name": "USP-S | Stainless",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "CZ75-Auto | Tread Plate",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+	  {
+         "Name": "Five-SeveN | Copper Galaxy",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "Tec-9 | Titanium Bit",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "Desert Eagle | Heirloom",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "CZ75-Auto | The Fuschia Is Now",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "P250 | Undertow",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "CZ75-Auto | Victoria",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      }
+   ]
+}

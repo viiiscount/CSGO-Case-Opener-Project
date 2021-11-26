@@ -1,0 +1,106 @@
+{
+   "Shattered_Web_Case": [
+      {
+         "Name": "M249 | Warbird",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.05,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "G3SG1 | Black Sand",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "SCAR-20 | Torn",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "Nova | Plume",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "MP5-SD | Acid Wash",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.68
+      },
+      {
+         "Name": "R8 Revolver | Memento",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Dual Berettas | Balance",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Embargo",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MP7 | Neon Ply",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P2000 | Obsidian",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Arctic Wolf",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "AK-47 | Rat Rod",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SG 553 | Colony IV",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Tec-9 | Decimator",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "SSG 08 | Bloodshot",
+         "Rarity": "Classified",
+         "FloatMin": 0.14,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "MAC-10 | Stalker",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Containment Breach",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

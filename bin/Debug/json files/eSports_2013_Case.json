@@ -1,0 +1,58 @@
+{
+   "eSports_2013_Case": [
+      {
+         "Name": "FAMAS | Doomkitty",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.08,
+         "FloatMax": 0.22
+      },
+      {
+         "Name": "MAG-7 | Memento",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.02,
+         "FloatMax": 0.18
+      },
+      {
+         "Name": "M4A4 | Faded Zebra",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Sawed-Off | Orange DDPAT",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P250 | Splash",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.18
+      },
+      {
+         "Name": "Galil AR | Orange DDPAT",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AK-47 | Red Laminate",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AWP | BOOM",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.28
+      },
+      {
+         "Name": "P90 | Death by Kitty",
+         "Rarity": "Covert",
+         "FloatMin": 0.08,
+         "FloatMax": 0.32
+      },
+   ]
+}

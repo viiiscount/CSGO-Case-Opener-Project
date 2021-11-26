@@ -1,0 +1,106 @@
+{
+   "eSports_2014_Summer_Case": [
+      {
+         "Name": "XM1014 | Red Python",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.08,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "SSG 08 | Dark Water",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 0.26
+      },
+      {
+         "Name": "CZ75-Auto | Hexane",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "USP-S | Blood Tiger",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.3
+      },
+      {
+         "Name": "Negev | Bratatat",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAC-10 | Ultraviolet",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P90 | Virus",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Glock-18 | Steel Disruption",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "MP7 | Ocean Foam",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.08
+      },
+      {
+         "Name": "PP-Bizon | Blue Streak",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Desert Eagle | Crimson Web",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "P2000 | Corticera",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.3
+      },
+      {
+         "Name": "AUG | Bengal Tiger",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AWP | Corticera",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.3
+      },
+	  {
+         "Name": "Nova | Bloomstick",
+         "Rarity": "Classified",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "M4A4 | Bullet Rain",
+         "Rarity": "Covert",
+         "FloatMin": 0.02,
+         "FloatMax": 0.46
+      },
+      {
+         "Name": "AK-47 | Jaguar",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

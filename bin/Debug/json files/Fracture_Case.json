@@ -1,0 +1,106 @@
+{
+   "Fracture_Case": [
+      {
+         "Name": "Negev | Ultralight",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.79
+      },
+      {
+         "Name": "P2000 | Gnarled",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SG 553 | Ol' Rusty",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "SSG 08 | Mainframe 001",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Cassette",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "P90 | Freight",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Runic",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAG-7 | Monster Call",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Tec-9 | Brother",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAC-10 | Allure",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Galil AR | Connexion",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "MP5-SD | Kitbash",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "M4A4 | Tooth Fairy",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.73
+      },
+      {
+         "Name": "Glock-18 | Vogue",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "XM1014 | Entombed",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Desert Eagle | Printstream",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "AK-47 | Legion of Anubis",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      }
+   ]
+}

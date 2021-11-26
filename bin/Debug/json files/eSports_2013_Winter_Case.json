@@ -1,0 +1,76 @@
+{
+   "eSports_2013_Winter_Case": [
+      {
+         "Name": "PP-Bizon | Water Sigil",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Nova | Ghost Camo",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "G3SG1 | Azure Zebra",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.28
+      },
+      {
+         "Name": "Five-SeveN | Nightshade",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Galil AR | Blue Titanium",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.04
+      },
+      {
+         "Name": "P250 | Steel Disruption",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.20
+      },
+      {
+         "Name": "P90 | Blind Spot",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "AK-47 | Blue Laminate",
+         "Rarity": "Restricted",
+         "FloatMin": 0.02,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "FAMAS | Afterimage",
+         "Rarity": "Classified",
+         "FloatMin": 0.02,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "AWP | Electric Hive",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "Desert Eagle | Cobalt Disruption",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "M4A4 | X-Ray",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.3
+      },
+   ]
+}

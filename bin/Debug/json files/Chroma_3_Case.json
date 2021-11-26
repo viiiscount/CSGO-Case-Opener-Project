@@ -1,0 +1,106 @@
+{
+   "Chroma_3_Case": [
+      {
+         "Name": "Sawed-Off | Fubar",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.4,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P2000 | Oceanic",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "M249 | Spectre",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "G3SG1 | Orange Crash",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.52
+      },
+      {
+         "Name": "SG 553 | Atlas",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.81
+      },
+      {
+         "Name": "Dual Berettas | Ventilators",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "MP9 | Bioleak",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "CZ75-Auto | Red Astor",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Tec-9 | Re-Entry",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.43
+      },
+      {
+         "Name": "Galil AR | Firefight",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "XM1014 | Black Tie",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "SSG 08 | Ghost Crusader",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Fleet Flock",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "UMP-45 | Primal Saber",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.77
+      },
+      {
+         "Name": "P250 | Asiimov",
+         "Rarity": "Classified",
+         "FloatMin": 0.1,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Judgement of Anubis",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "M4A1-S | Chantico's Fire",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.99
+      }
+   ]
+}

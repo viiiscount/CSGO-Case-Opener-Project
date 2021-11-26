@@ -1,0 +1,106 @@
+{
+  "Snakebite_Case": [
+    {
+      "Name": "SG 553 | Heavy Metal",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "Glock-18 | Clear Polymer",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "M249 | O.S.I.P.R.",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 0.7
+    },
+    {
+      "Name": "CZ75-Auto | Circaetus",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 0.9
+    },
+    {
+      "Name": "UMP-45 | Oscillator",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 0.5
+    },
+    {
+      "Name": "R8 Revolver | Junk Yard",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "Nova | Windblown",
+      "Rarity": "Mil-Spec",
+      "FloatMin": 0.0,
+      "FloatMax": 0.5
+    },
+    {
+      "Name": "P250 | Cyber Shell",
+      "Rarity": "Restricted",
+      "FloatMin": 0.0,
+      "FloatMax": 0.85
+    },
+    {
+      "Name": "Negev | dev_texture",
+      "Rarity": "Restricted",
+      "FloatMin": 0.0,
+      "FloatMax": 0.65
+    },
+    {
+      "Name": "MAC-10 | Button Masher",
+      "Rarity": "Restricted",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "Desert Eagle | Trigger Discipline",
+      "Rarity": "Restricted",
+      "FloatMin": 0.0,
+      "FloatMax": 0.97
+    },
+    {
+      "Name": "AK-47 | Slate",
+      "Rarity": "Restricted",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+	{
+      "Name": "MP9 | Food Chain",
+      "Rarity": "Classified",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "XM1014 | XOXO",
+      "Rarity": "Classified",
+      "FloatMin": 0.0,
+      "FloatMax": 0.9
+    },
+    {
+      "Name": "Galil AR | Chromatic Aberration",
+      "Rarity": "Classified",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "USP-S | The Traitor",
+      "Rarity": "Covert",
+      "FloatMin": 0.0,
+      "FloatMax": 1.0
+    },
+    {
+      "Name": "M4A4 | In Living Color",
+      "Rarity": "Covert",
+      "FloatMin": 0.0,
+      "FloatMax": 0.79
+    }
+  ]
+}

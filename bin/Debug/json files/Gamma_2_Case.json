@@ -1,0 +1,106 @@
+{
+   "Gamma_2_Case": [
+      {
+         "Name": "XM1014 | Slipstream",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "G3SG1 | Ventilator",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "Five-SeveN | Scumbria",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "CZ75-Auto | Imprint",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "UMP-45 | Briefing",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Negev | Dazzle",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "P90 | Grim",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "MAG-7 | Petroglyph",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.44
+      },
+      {
+         "Name": "SCAR-20 | Powercore",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SG 553 | Triarch",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Weasel",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Desert Eagle | Directive",
+         "Rarity": "Restricted",
+         "FloatMin": 0.06,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MP9 | Airlock",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Syd Mead",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Tec-9 | Fuel Injector",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "FAMAS | Roll Cage",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AK-47 | Neon Revolution",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      }
+   ]
+}

@@ -1,0 +1,106 @@
+{
+   "CS20_Case": [
+      {
+         "Name": "Dual Berettas | Elite 1.6",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "Tec-9 | Flash Out",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "MAC-10 | Classic Crate",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAG-7 | Popdog",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "SCAR-20 | Assault",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.62
+      },
+      {
+         "Name": "FAMAS | Decommissioned",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Sacrifice",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M249 | Aztec",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "MP5-SD | Agent",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Buddy",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "P250 | Inferno",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.68
+      },
+      {
+         "Name": "UMP-45 | Plastique",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "MP9 | Hydra",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P90 | Nostalgia",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.57
+      },
+      {
+         "Name": "AUG | Death by Puppy",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "FAMAS | Commemoration",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "AWP | Wildfire",
+         "Rarity": "Covert",
+         "FloatMin": 0.01,
+         "FloatMax": 0.7
+      }
+   ]
+}

@@ -1,0 +1,106 @@
+{
+   "Spectrum_Case": [
+      {
+         "Name": "MP7 | Akoben",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "PP-Bizon | Jungle Slipstream",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "P250 | Ripple",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Sawed-Off | Zander",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.05,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Capillary",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "SCAR-20 | Blueprint",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "Desert Eagle | Oxide Blaze",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "MAC-10 | Last Dive",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.52
+      },
+      {
+         "Name": "XM1014 | Seasons",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Galil AR | Crimson Tsunami",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "UMP-45 | Scaffold",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "M249 | Emerald Poison Dart",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "CZ75-Auto | Xiangliu",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.56
+      },
+      {
+         "Name": "AWP | Fever Dream",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "M4A1-S | Decimator",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.85
+      },
+      {
+         "Name": "USP-S | Neo-Noir",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "AK-47 | Bloodsport",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      }
+   ]
+}

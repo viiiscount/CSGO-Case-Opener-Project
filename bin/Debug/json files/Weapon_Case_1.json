@@ -1,0 +1,58 @@
+{
+   "Weapon_Case_1": [
+      {
+         "Name": "MP7 | Skulls",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 0.26
+      },
+      {
+         "Name": "AUG | Wings",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.14
+      },
+      {
+         "Name": "SG 553 | Ultraviolet",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "M4A1-S | Dark Water",
+         "Rarity": "Restricted",
+         "FloatMin": 0.1,
+         "FloatMax": 0.26
+      },
+      {
+         "Name": "USP-S | Dark Water",
+         "Rarity": "Restricted",
+         "FloatMin": 0.1,
+         "FloatMax": 0.26
+      },
+      {
+         "Name": "Glock-18 | Dragon Tattoo",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.08
+      },
+      {
+         "Name": "Desert Eagle | Hypnotic",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.08
+      },
+      {
+         "Name": "AK-47 | Case Hardened",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Lightning Strike",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.08
+      }
+   ]
+}

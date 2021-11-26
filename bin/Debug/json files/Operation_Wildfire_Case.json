@@ -1,0 +1,100 @@
+{
+   "Operation_Wildfire_Case": [
+      {
+         "Name": "MAC-10 | Lapis Gator",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Tec-9 | Jambiya",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Dual Berettas | Cartel",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "PP-Bizon | Photic Zone",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SSG 08 | Necropos",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "USP-S | Lead Conduit",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Triumvirate",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.61
+      },
+      {
+         "Name": "MAG-7 | Praetorian",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "MP7 | Impire",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "FAMAS | Valence",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Glock-18 | Royal Legion",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Nova | Hyper Beast",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "AWP | Elite Build",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Desert Eagle | Kumicho Dragon",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.76
+      },
+      {
+         "Name": "M4A4 | The Battlestar",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.64
+      },
+      {
+         "Name": "AK-47 | Fuel Injector",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

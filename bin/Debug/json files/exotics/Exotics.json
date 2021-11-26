@@ -1,0 +1,104 @@
+{
+   "Exotics": [
+      {
+         "Name": "Karambit",
+         "SetID": 1.0,
+         "ExoticID": 1.0
+      },
+      {
+         "Name": "Bayonet",
+         "SetID": 1.0,
+         "ExoticID": 2.0
+      },
+      {
+         "Name": "M9 Bayonet",
+         "SetID": 1.0,
+         "ExoticID": 3.0
+      },
+      {
+         "Name": "Flip Knife",
+         "SetID": 1.0,
+         "ExoticID": 4.0
+      },
+      {
+         "Name": "Gut Knife",
+         "SetID": 1.0,
+         "ExoticID": 5.0
+      },
+      {
+         "Name": "Bowie Knife",
+         "SetID": 2.0,
+         "ExoticID": 6.0
+      },
+      {
+         "Name": "Shadow Daggers",
+         "SetID": 2.0,
+         "ExoticID": 7.0
+      },
+      {
+         "Name": "Falchion Knife",
+         "SetID": 2.0,
+         "ExoticID": 8.0
+      },
+      {
+         "Name": "Butterfly Knife",
+         "SetID": 2.0,
+         "ExoticID": 9.0
+      },
+      {
+         "Name": "Huntsman Knife",
+         "SetID": 2.0,
+         "ExoticID": 10.0
+      },
+      {
+         "Name": "Talon Knife",
+         "SetID": 3.0,
+         "ExoticID": 11.0
+      },
+      {
+         "Name": "Ursus Knife",
+         "SetID": 3.0,
+         "ExoticID": 12.0
+      },
+      {
+         "Name": "Stiletto Knife",
+         "SetID": 3.0,
+         "ExoticID": 13.0
+      },
+      {
+         "Name": "Navaja Knife",
+         "SetID": 3.0,
+         "ExoticID": 14.0
+      },
+      {
+         "Name": "Skeleton Knife",
+         "SetID": 4.0,
+         "ExoticID": 15.0
+      },
+	  {
+         "Name": "Paracord Knife",
+         "SetID": 4.0,
+         "ExoticID": 16.0
+      },
+	  {
+         "Name": "Survival Knife",
+         "SetID": 4.0,
+         "ExoticID": 17.0
+      },
+	  {
+         "Name": "Nomad Knife",
+         "SetID": 4.0,
+         "ExoticID": 18.0
+      },
+	  {
+         "Name": "Classic Knife",
+         "SetID": 5.0,
+         "ExoticID": 19.0
+      },
+	  {
+         "Name": "Gloves",
+         "SetID": 6.0,
+         "ExoticID": 20.0
+      }
+   ]
+}

@@ -1,0 +1,94 @@
+{
+   "Chroma_2_Case": [
+      {
+         "Name": "Negev | Man-o'-war",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.1,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "MP7 | Armor Core",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Sawed-Off | Origami",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "P250 | Valence",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Desert Eagle | Bronze Deco",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.46
+      },
+      {
+         "Name": "AK-47 | Elite Build",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "UMP-45 | Grand Prix",
+         "Rarity": "Restricted",
+         "FloatMin": 0.25,
+         "FloatMax": 0.35
+      },
+      {
+         "Name": "CZ75-Auto | Pole Position",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "MAG-7 | Heat",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AWP | Worm God",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "FAMAS | Djinn",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Five-SeveN | Monkey Business",
+         "Rarity": "Classified",
+         "FloatMin": 0.1,
+         "FloatMax": 0.9
+      },
+      {
+         "Name": "Galil AR | Eco",
+         "Rarity": "Classified",
+         "FloatMin": 0.1,
+         "FloatMax": 0.85
+      },
+      {
+         "Name": "MAC-10 | Neon Rider",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.45
+      },
+      {
+         "Name": "M4A1-S | Hyper Beast",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

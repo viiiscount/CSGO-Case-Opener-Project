@@ -1,0 +1,106 @@
+{
+   "Revolver_Case": [
+      {
+         "Name": "SCAR-20 | Outbreak",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Sawed-Off | Yorick",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P2000 | Imperial",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "AUG | Ricochet",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Desert Eagle | Corinthian",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.44
+      },
+      {
+         "Name": "R8 Revolver | Crimson Web",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.06,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Five-SeveN | Retrobution",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "XM1014 | Teclu Burner",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.65
+      },
+      {
+         "Name": "PP-Bizon | Fuel Rod",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "SG 553 | Tiger Moth",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Tec-9 | Avalanche",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Negev | Power Loader",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P90 | Shapewood",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+	  {
+         "Name": "G3SG1 | The Executioner",
+         "Rarity": "Classified",
+         "FloatMin": 0.14,
+         "FloatMax": 0.85
+      },
+      {
+         "Name": "AK-47 | Point Disarray",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.67
+      },
+      {
+         "Name": "R8 Revolver | Fade",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.4
+      },
+      {
+         "Name": "M4A4 | Royal Paladin",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      }
+   ]
+}

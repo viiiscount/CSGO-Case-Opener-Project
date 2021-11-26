@@ -1,0 +1,106 @@
+{
+   "Spectrum_2_Case": [
+      {
+         "Name": "SCAR-20 | Jungle Slipstream",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "G3SG1 | Hunter",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "MAC-10 | Oceanic",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "Sawed-Off | Morris",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Tec-9 | Cracked Opal",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "AUG | Triqua",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Glock-18 | Off World",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "XM1014 | Ziggy",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.72
+      },
+      {
+         "Name": "MP9 | Goo",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "UMP-45 | Exposure",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.55
+      },
+      {
+         "Name": "SG 553 | Phantom",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "CZ75-Auto | Tacticat",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "PP-Bizon | High Roller",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "R8 Revolver | Llama Cannon",
+         "Rarity": "Classified",
+         "FloatMin": 0.03,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "M4A1-S | Leaded Glass",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "P250 | See Ya Later",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 0.7
+      },
+      {
+         "Name": "AK-47 | The Empress",
+         "Rarity": "Covert",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      }
+   ]
+}

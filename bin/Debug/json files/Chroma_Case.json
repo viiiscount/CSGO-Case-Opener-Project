@@ -1,0 +1,88 @@
+{
+   "Chroma_Case": [
+      {
+         "Name": "XM1014 | Quicksilver",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "SCAR-20 | Grotto",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "M249 | System Lock",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.8
+      },
+      {
+         "Name": "Glock-18 | Catacombs",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "MP9 | Deadly Poison",
+         "Rarity": "Mil-Spec",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "Sawed-Off | Serenity",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "MAC-10 | Malachite",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.5
+      },
+      {
+         "Name": "Dual Berettas | Urban Shock",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 0.47
+      },
+      {
+         "Name": "Desert Eagle | Naga",
+         "Rarity": "Restricted",
+         "FloatMin": 0.0,
+         "FloatMax": 1.0
+      },
+      {
+         "Name": "P250 | Muertos",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.6
+      },
+      {
+         "Name": "M4A4 | 龍王 (Dragon King)",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "AK-47 | Cartel",
+         "Rarity": "Classified",
+         "FloatMin": 0.0,
+         "FloatMax": 0.75
+      },
+      {
+         "Name": "AWP | Man-o'-war",
+         "Rarity": "Covert",
+         "FloatMin": 0.1,
+         "FloatMax": 0.2
+      },
+      {
+         "Name": "Galil AR | Chatterbox",
+         "Rarity": "Covert",
+         "FloatMin": 0.35,
+         "FloatMax": 0.85
+      }
+   ]
+}
