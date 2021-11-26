@@ -1,0 +1,34 @@
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\Project.exe.config
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\Project.exe
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\Project.pdb
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.frmMain.resources
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.exe
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.pdb
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Interop.ADOX.dll
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.csproj.ResolveComReference.cache
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.frmOpener.resources
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\bin\Debug\System.Net.Http.Formatting.xml
+E:\Project\Project\bin\Debug\Project.exe.config
+E:\Project\Project\bin\Debug\Project.exe
+E:\Project\Project\bin\Debug\Project.pdb
+E:\Project\Project\bin\Debug\Newtonsoft.Json.dll
+E:\Project\Project\bin\Debug\System.Net.Http.Formatting.dll
+E:\Project\Project\bin\Debug\Newtonsoft.Json.xml
+E:\Project\Project\bin\Debug\System.Net.Http.Formatting.xml
+E:\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+E:\Project\Project\obj\Debug\Interop.ADOX.dll
+E:\Project\Project\obj\Debug\Project.csproj.ResolveComReference.cache
+E:\Project\Project\obj\Debug\Project.frmMain.resources
+E:\Project\Project\obj\Debug\Project.frmOpener.resources
+E:\Project\Project\obj\Debug\Project.Properties.Resources.resources
+E:\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+E:\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+E:\Project\Project\obj\Debug\Project.exe
+E:\Project\Project\obj\Debug\Project.pdb
