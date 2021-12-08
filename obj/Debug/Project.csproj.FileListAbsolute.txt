@@ -32,3 +32,22 @@ E:\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
 E:\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
 E:\Project\Project\obj\Debug\Project.exe
 E:\Project\Project\obj\Debug\Project.pdb
+C:\Users\bmack\Downloads\Project\bin\Debug\Project.exe.config
+C:\Users\bmack\Downloads\Project\bin\Debug\Project.exe
+C:\Users\bmack\Downloads\Project\bin\Debug\Project.pdb
+C:\Users\bmack\Downloads\Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bmack\Downloads\Project\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\bmack\Downloads\Project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bmack\Downloads\Project\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\bmack\Downloads\Project\obj\Debug\Interop.ADOX.dll
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.csproj.ResolveComReference.cache
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.frmMain.resources
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.frmOpener.resources
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.exe
+C:\Users\bmack\Downloads\Project\obj\Debug\Project.pdb
+C:\Users\bmack\Documents\Visual Studio 2019\Code\Project\Project\obj\Debug\Project.FrmSearch.resources
+E:\Project\Project\obj\Debug\Project.FrmSearch.resources
