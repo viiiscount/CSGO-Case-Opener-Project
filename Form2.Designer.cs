@@ -69,7 +69,6 @@ namespace Project
             this.lblSkin18 = new System.Windows.Forms.Label();
             this.picReward = new System.Windows.Forms.PictureBox();
             this.btnRoll = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
             this.lblFloat = new System.Windows.Forms.Label();
             this.lblQuality = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
@@ -77,6 +76,14 @@ namespace Project
             this.chkAnimationSkip = new System.Windows.Forms.CheckBox();
             this.chkAutoRoll = new System.Windows.Forms.CheckBox();
             this.timerAutoRoll = new System.Windows.Forms.Timer(this.components);
+            this.lblCost = new System.Windows.Forms.Label();
+            this.lblProfit = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.listSkins = new System.Windows.Forms.ListView();
+            this.Inventory = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.grpStats = new System.Windows.Forms.GroupBox();
+            this.lblCasePrice = new System.Windows.Forms.Label();
+            this.lblInfo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picSkin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSkin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSkin3)).BeginInit();
@@ -96,6 +103,7 @@ namespace Project
             ((System.ComponentModel.ISupportInitialize)(this.picSkin5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSkin8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picReward)).BeginInit();
+            this.grpStats.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblSkin1
@@ -522,60 +530,55 @@ namespace Project
             // 
             // btnRoll
             // 
+            this.btnRoll.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnRoll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRoll.Location = new System.Drawing.Point(359, 296);
             this.btnRoll.Name = "btnRoll";
             this.btnRoll.Size = new System.Drawing.Size(145, 73);
             this.btnRoll.TabIndex = 40;
             this.btnRoll.Text = "Roll";
-            this.btnRoll.UseVisualStyleBackColor = true;
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.lblName.Location = new System.Drawing.Point(543, 493);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(35, 13);
-            this.lblName.TabIndex = 41;
-            this.lblName.Text = "Name";
-            this.lblName.Visible = false;
+            this.btnRoll.UseVisualStyleBackColor = false;
             // 
             // lblFloat
             // 
             this.lblFloat.AutoSize = true;
-            this.lblFloat.Location = new System.Drawing.Point(507, 529);
+            this.lblFloat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFloat.Location = new System.Drawing.Point(507, 555);
             this.lblFloat.Name = "lblFloat";
-            this.lblFloat.Size = new System.Drawing.Size(30, 13);
+            this.lblFloat.Size = new System.Drawing.Size(57, 18);
             this.lblFloat.TabIndex = 44;
-            this.lblFloat.Text = "Float";
+            this.lblFloat.Text = "Float: 0";
             this.lblFloat.Visible = false;
             // 
             // lblQuality
             // 
             this.lblQuality.AutoSize = true;
-            this.lblQuality.Location = new System.Drawing.Point(507, 511);
+            this.lblQuality.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuality.Location = new System.Drawing.Point(506, 528);
             this.lblQuality.Name = "lblQuality";
-            this.lblQuality.Size = new System.Drawing.Size(39, 13);
+            this.lblQuality.Size = new System.Drawing.Size(97, 18);
             this.lblQuality.TabIndex = 45;
-            this.lblQuality.Text = "Quality";
+            this.lblQuality.Text = "Quality: None";
             this.lblQuality.Visible = false;
             // 
             // lblPrice
             // 
             this.lblPrice.AutoSize = true;
-            this.lblPrice.Location = new System.Drawing.Point(507, 547);
+            this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.Location = new System.Drawing.Point(20, 109);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(31, 13);
+            this.lblPrice.Size = new System.Drawing.Size(70, 20);
             this.lblPrice.TabIndex = 47;
-            this.lblPrice.Text = "Price";
-            this.lblPrice.Visible = false;
+            this.lblPrice.Text = "Price: $0";
             // 
             // lblNameTitle
             // 
             this.lblNameTitle.AutoSize = true;
-            this.lblNameTitle.Location = new System.Drawing.Point(508, 493);
+            this.lblNameTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameTitle.Location = new System.Drawing.Point(507, 503);
             this.lblNameTitle.Name = "lblNameTitle";
-            this.lblNameTitle.Size = new System.Drawing.Size(38, 13);
+            this.lblNameTitle.Size = new System.Drawing.Size(52, 18);
             this.lblNameTitle.TabIndex = 48;
             this.lblNameTitle.Text = "Name:";
             this.lblNameTitle.Visible = false;
@@ -583,9 +586,10 @@ namespace Project
             // chkAnimationSkip
             // 
             this.chkAnimationSkip.AutoSize = true;
-            this.chkAnimationSkip.Location = new System.Drawing.Point(384, 375);
+            this.chkAnimationSkip.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAnimationSkip.Location = new System.Drawing.Point(370, 377);
             this.chkAnimationSkip.Name = "chkAnimationSkip";
-            this.chkAnimationSkip.Size = new System.Drawing.Size(96, 17);
+            this.chkAnimationSkip.Size = new System.Drawing.Size(125, 22);
             this.chkAnimationSkip.TabIndex = 50;
             this.chkAnimationSkip.Text = "Skip Animation";
             this.chkAnimationSkip.UseVisualStyleBackColor = true;
@@ -593,9 +597,10 @@ namespace Project
             // chkAutoRoll
             // 
             this.chkAutoRoll.AutoSize = true;
-            this.chkAutoRoll.Location = new System.Drawing.Point(384, 398);
+            this.chkAutoRoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAutoRoll.Location = new System.Drawing.Point(382, 405);
             this.chkAutoRoll.Name = "chkAutoRoll";
-            this.chkAutoRoll.Size = new System.Drawing.Size(69, 17);
+            this.chkAutoRoll.Size = new System.Drawing.Size(88, 22);
             this.chkAutoRoll.TabIndex = 53;
             this.chkAutoRoll.Text = "Auto-Roll";
             this.chkAutoRoll.UseVisualStyleBackColor = true;
@@ -604,19 +609,108 @@ namespace Project
             // 
             this.timerAutoRoll.Interval = 1;
             // 
+            // lblCost
+            // 
+            this.lblCost.AutoSize = true;
+            this.lblCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCost.Location = new System.Drawing.Point(20, 68);
+            this.lblCost.Name = "lblCost";
+            this.lblCost.Size = new System.Drawing.Size(68, 20);
+            this.lblCost.TabIndex = 56;
+            this.lblCost.Text = "Cost: $0";
+            // 
+            // lblProfit
+            // 
+            this.lblProfit.AutoSize = true;
+            this.lblProfit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProfit.Location = new System.Drawing.Point(20, 150);
+            this.lblProfit.Name = "lblProfit";
+            this.lblProfit.Size = new System.Drawing.Size(72, 20);
+            this.lblProfit.TabIndex = 58;
+            this.lblProfit.Text = "Profit: $0";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName.Location = new System.Drawing.Point(557, 503);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(48, 18);
+            this.lblName.TabIndex = 60;
+            this.lblName.Text = "Name";
+            this.lblName.Visible = false;
+            // 
+            // listSkins
+            // 
+            this.listSkins.Activation = System.Windows.Forms.ItemActivation.TwoClick;
+            this.listSkins.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Inventory});
+            this.listSkins.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listSkins.FullRowSelect = true;
+            this.listSkins.HideSelection = false;
+            this.listSkins.LabelWrap = false;
+            this.listSkins.Location = new System.Drawing.Point(847, 296);
+            this.listSkins.MultiSelect = false;
+            this.listSkins.Name = "listSkins";
+            this.listSkins.Size = new System.Drawing.Size(377, 245);
+            this.listSkins.TabIndex = 61;
+            this.listSkins.UseCompatibleStateImageBehavior = false;
+            this.listSkins.View = System.Windows.Forms.View.Details;
+            // 
+            // Inventory
+            // 
+            this.Inventory.Text = "Inventory: ";
+            this.Inventory.Width = 355;
+            // 
+            // grpStats
+            // 
+            this.grpStats.Controls.Add(this.lblCasePrice);
+            this.grpStats.Controls.Add(this.lblCost);
+            this.grpStats.Controls.Add(this.lblPrice);
+            this.grpStats.Controls.Add(this.lblProfit);
+            this.grpStats.Location = new System.Drawing.Point(38, 296);
+            this.grpStats.Name = "grpStats";
+            this.grpStats.Size = new System.Drawing.Size(203, 192);
+            this.grpStats.TabIndex = 63;
+            this.grpStats.TabStop = false;
+            this.grpStats.Text = "Stats:";
+            // 
+            // lblCasePrice
+            // 
+            this.lblCasePrice.AutoSize = true;
+            this.lblCasePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCasePrice.Location = new System.Drawing.Point(20, 27);
+            this.lblCasePrice.Name = "lblCasePrice";
+            this.lblCasePrice.Size = new System.Drawing.Size(107, 20);
+            this.lblCasePrice.TabIndex = 64;
+            this.lblCasePrice.Text = "CasePrice: $0";
+            // 
+            // lblInfo
+            // 
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Location = new System.Drawing.Point(35, 503);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(356, 126);
+            this.lblInfo.TabIndex = 64;
+            this.lblInfo.Text = resources.GetString("lblInfo.Text");
+            // 
             // frmOpener
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1280, 661);
+            this.Controls.Add(this.lblInfo);
+            this.Controls.Add(this.grpStats);
+            this.Controls.Add(this.listSkins);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.chkAutoRoll);
             this.Controls.Add(this.chkAnimationSkip);
             this.Controls.Add(this.lblNameTitle);
-            this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblQuality);
             this.Controls.Add(this.lblFloat);
-            this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnRoll);
             this.Controls.Add(this.picReward);
             this.Controls.Add(this.lblSkin18);
@@ -658,7 +752,7 @@ namespace Project
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1296, 700);
-            this.MinimumSize = new System.Drawing.Size(1296, 700);
+            this.MinimumSize = new System.Drawing.Size(1278, 700);
             this.Name = "frmOpener";
             this.Text = "CS:GO Case Opener";
             ((System.ComponentModel.ISupportInitialize)(this.picSkin1)).EndInit();
@@ -680,6 +774,8 @@ namespace Project
             ((System.ComponentModel.ISupportInitialize)(this.picSkin5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSkin8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picReward)).EndInit();
+            this.grpStats.ResumeLayout(false);
+            this.grpStats.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -725,7 +821,6 @@ namespace Project
         private System.Windows.Forms.Label lblSkin18;
         private System.Windows.Forms.PictureBox picReward;
         private System.Windows.Forms.Button btnRoll;
-        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblFloat;
         private System.Windows.Forms.Label lblQuality;
         private System.Windows.Forms.Label lblPrice;
@@ -733,5 +828,13 @@ namespace Project
         private System.Windows.Forms.CheckBox chkAnimationSkip;
         private System.Windows.Forms.CheckBox chkAutoRoll;
         private System.Windows.Forms.Timer timerAutoRoll;
+        private System.Windows.Forms.Label lblCost;
+        private System.Windows.Forms.Label lblProfit;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.ListView listSkins;
+        private System.Windows.Forms.ColumnHeader Inventory;
+        private System.Windows.Forms.GroupBox grpStats;
+        private System.Windows.Forms.Label lblCasePrice;
+        private System.Windows.Forms.Label lblInfo;
     }
 }

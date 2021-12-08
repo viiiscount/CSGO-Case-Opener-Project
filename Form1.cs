@@ -12,89 +12,89 @@ using Newtonsoft.Json;
 
 namespace Project
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
-        public frmMain()
+        public FrmMain()
         {
             InitializeComponent();
 
             //redirect mouse clicks and cursor hovers to custom event handlers.
-            Weapon_Case_1.Click += picBoxClick;
-            eSports_2013_Case.Click += picBoxClick;
-            Operation_Bravo_Case.Click += picBoxClick;
-            Weapon_Case_2.Click += picBoxClick;
-            eSports_2013_Winter_Case.Click += picBoxClick;
-            Winter_Offensive_Case.Click += picBoxClick;
-            Weapon_Case_3.Click += picBoxClick;
-            Operation_Phoenix_Case.Click += picBoxClick;
-            Huntsman_Case.Click += picBoxClick;
-            Operation_Breakout_Case.Click += picBoxClick;
-            eSports_2014_Summer_Case.Click += picBoxClick;
-            Operation_Vanguard_Case.Click += picBoxClick;
-            Chroma_Case.Click += picBoxClick;
-            Chroma_2_Case.Click += picBoxClick;
-            Falchion_Case.Click += picBoxClick;
-            Shadow_Case.Click += picBoxClick;
-            Revolver_Case.Click += picBoxClick;
-            Operation_Wildfire_Case.Click += picBoxClick;
-            Chroma_3_Case.Click += picBoxClick;
-            Gamma_Case.Click += picBoxClick;
-            Gamma_2_Case.Click += picBoxClick;
-            Glove_Case.Click += picBoxClick;
-            Spectrum_Case.Click += picBoxClick;
-            Operation_Hydra_Case.Click += picBoxClick;
-            Spectrum_2_Case.Click += picBoxClick;
-            Clutch_Case.Click += picBoxClick;
-            Horizon_Case.Click += picBoxClick;
-            Danger_Zone_Case.Click += picBoxClick;
-            Prisma_Case.Click += picBoxClick;
-            CS20_Case.Click += picBoxClick;
-            Shattered_Web_Case.Click += picBoxClick;
-            Prisma_2_Case.Click += picBoxClick;
-            Fracture_Case.Click += picBoxClick;
-            Operation_Broken_Fang_Case.Click += picBoxClick;
-            Snakebite_Case.Click += picBoxClick;
-            Operation_Riptide_Case.Click += picBoxClick;
+            CS__GO_Weapon_Case.Click += PicBoxClick;
+            eSports_2013_Case.Click += PicBoxClick;
+            Operation_Bravo_Case.Click += PicBoxClick;
+            CS__GO_Weapon_Case_2.Click += PicBoxClick;
+            eSports_2013_Winter_Case.Click += PicBoxClick;
+            Winter_Offensive_Weapon_Case.Click += PicBoxClick;
+            CS__GO_Weapon_Case_3.Click += PicBoxClick;
+            Operation_Phoenix_Weapon_Case.Click += PicBoxClick;
+            Huntsman_Weapon_Case.Click += PicBoxClick;
+            Operation_Breakout_Weapon_Case.Click += PicBoxClick;
+            eSports_2014_Summer_Case.Click += PicBoxClick;
+            Operation_Vanguard_Weapon_Case.Click += PicBoxClick;
+            Chroma_Case.Click += PicBoxClick;
+            Chroma_2_Case.Click += PicBoxClick;
+            Falchion_Case.Click += PicBoxClick;
+            Shadow_Case.Click += PicBoxClick;
+            Revolver_Case.Click += PicBoxClick;
+            Operation_Wildfire_Case.Click += PicBoxClick;
+            Chroma_3_Case.Click += PicBoxClick;
+            Gamma_Case.Click += PicBoxClick;
+            Gamma_2_Case.Click += PicBoxClick;
+            Glove_Case.Click += PicBoxClick;
+            Spectrum_Case.Click += PicBoxClick;
+            Operation_Hydra_Case.Click += PicBoxClick;
+            Spectrum_2_Case.Click += PicBoxClick;
+            Clutch_Case.Click += PicBoxClick;
+            Horizon_Case.Click += PicBoxClick;
+            Danger_Zone_Case.Click += PicBoxClick;
+            Prisma_Case.Click += PicBoxClick;
+            CS20_Case.Click += PicBoxClick;
+            Shattered_Web_Case.Click += PicBoxClick;
+            Prisma_2_Case.Click += PicBoxClick;
+            Fracture_Case.Click += PicBoxClick;
+            Operation_Broken_Fang_Case.Click += PicBoxClick;
+            Snakebite_Case.Click += PicBoxClick;
+            Operation_Riptide_Case.Click += PicBoxClick;
 
-            Weapon_Case_1.MouseHover += picBoxHover;
-            eSports_2013_Case.MouseHover += picBoxHover;
-            Operation_Bravo_Case.MouseHover += picBoxHover;
-            Weapon_Case_2.MouseHover += picBoxHover;
-            eSports_2013_Winter_Case.MouseHover += picBoxHover;
-            Winter_Offensive_Case.MouseHover += picBoxHover;
-            Weapon_Case_3.MouseHover += picBoxHover;
-            Operation_Phoenix_Case.MouseHover += picBoxHover;
-            Huntsman_Case.MouseHover += picBoxHover;
-            Operation_Breakout_Case.MouseHover += picBoxHover;
-            eSports_2014_Summer_Case.MouseHover += picBoxHover;
-            Operation_Vanguard_Case.MouseHover += picBoxHover;
-            Chroma_Case.MouseHover += picBoxHover;
-            Chroma_2_Case.MouseHover += picBoxHover;
-            Falchion_Case.MouseHover += picBoxHover;
-            Shadow_Case.MouseHover += picBoxHover;
-            Revolver_Case.MouseHover += picBoxHover;
-            Operation_Wildfire_Case.MouseHover += picBoxHover;
-            Chroma_3_Case.MouseHover += picBoxHover;
-            Gamma_Case.MouseHover += picBoxHover;
-            Gamma_2_Case.MouseHover += picBoxHover;
-            Glove_Case.MouseHover += picBoxHover;
-            Spectrum_Case.MouseHover += picBoxHover;
-            Operation_Hydra_Case.MouseHover += picBoxHover;
-            Spectrum_2_Case.MouseHover += picBoxHover;
-            Clutch_Case.MouseHover += picBoxHover;
-            Horizon_Case.MouseHover += picBoxHover;
-            Danger_Zone_Case.MouseHover += picBoxHover;
-            Prisma_Case.MouseHover += picBoxHover;
-            CS20_Case.MouseHover += picBoxHover;
-            Shattered_Web_Case.MouseHover += picBoxHover;
-            Prisma_2_Case.MouseHover += picBoxHover;
-            Fracture_Case.MouseHover += picBoxHover;
-            Operation_Broken_Fang_Case.MouseHover += picBoxHover;
-            Snakebite_Case.MouseHover += picBoxHover;
-            Operation_Riptide_Case.MouseHover += picBoxHover;
+            CS__GO_Weapon_Case.MouseHover += PicBoxHover;
+            eSports_2013_Case.MouseHover += PicBoxHover;
+            Operation_Bravo_Case.MouseHover += PicBoxHover;
+            CS__GO_Weapon_Case_2.MouseHover += PicBoxHover;
+            eSports_2013_Winter_Case.MouseHover += PicBoxHover;
+            Winter_Offensive_Weapon_Case.MouseHover += PicBoxHover;
+            CS__GO_Weapon_Case_3.MouseHover += PicBoxHover;
+            Operation_Phoenix_Weapon_Case.MouseHover += PicBoxHover;
+            Huntsman_Weapon_Case.MouseHover += PicBoxHover;
+            Operation_Breakout_Weapon_Case.MouseHover += PicBoxHover;
+            eSports_2014_Summer_Case.MouseHover += PicBoxHover;
+            Operation_Vanguard_Weapon_Case.MouseHover += PicBoxHover;
+            Chroma_Case.MouseHover += PicBoxHover;
+            Chroma_2_Case.MouseHover += PicBoxHover;
+            Falchion_Case.MouseHover += PicBoxHover;
+            Shadow_Case.MouseHover += PicBoxHover;
+            Revolver_Case.MouseHover += PicBoxHover;
+            Operation_Wildfire_Case.MouseHover += PicBoxHover;
+            Chroma_3_Case.MouseHover += PicBoxHover;
+            Gamma_Case.MouseHover += PicBoxHover;
+            Gamma_2_Case.MouseHover += PicBoxHover;
+            Glove_Case.MouseHover += PicBoxHover;
+            Spectrum_Case.MouseHover += PicBoxHover;
+            Operation_Hydra_Case.MouseHover += PicBoxHover;
+            Spectrum_2_Case.MouseHover += PicBoxHover;
+            Clutch_Case.MouseHover += PicBoxHover;
+            Horizon_Case.MouseHover += PicBoxHover;
+            Danger_Zone_Case.MouseHover += PicBoxHover;
+            Prisma_Case.MouseHover += PicBoxHover;
+            CS20_Case.MouseHover += PicBoxHover;
+            Shattered_Web_Case.MouseHover += PicBoxHover;
+            Prisma_2_Case.MouseHover += PicBoxHover;
+            Fracture_Case.MouseHover += PicBoxHover;
+            Operation_Broken_Fang_Case.MouseHover += PicBoxHover;
+            Snakebite_Case.MouseHover += PicBoxHover;
+            Operation_Riptide_Case.MouseHover += PicBoxHover;
         }
 
-        private void picBoxClick(object sender, EventArgs e)
+        private void PicBoxClick(object sender, EventArgs e)
         {
             //get name of case from the picture box that was clicked, convert it to string
             PictureBox picBox = sender as PictureBox;
@@ -105,20 +105,18 @@ namespace Project
             frmOpener.Show();
         }
 
-        private void picBoxHover(object sender, EventArgs e)
+        private void PicBoxHover(object sender, EventArgs e)
         {
             //get name of case from the picture box, convert it to string
             PictureBox picBox = sender as PictureBox;
             string nameOfCase = picBox.Name;
 
             //open the correct .json file, deserialize the file and place data into a datatable
-            string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\" + nameOfCase + ".json");
-            string json = File.ReadAllText(fileName);
-            DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(json);
+            DataSet dataSet = Deserialize(nameOfCase);
             DataTable skinTable = dataSet.Tables[nameOfCase];
 
             //replace _ with spaces, then display the case name in the tooltip
-            string realName = nameOfCase.Replace('_', ' ');
+            string realName = nameOfCase.Replace("__", ":").Replace('_', ' ');
             ttPopup.ToolTipTitle = realName + " Contains: ";
 
             //get the names and rarities and add them to lists using LINQ
@@ -128,6 +126,37 @@ namespace Project
             //zip the lists together then display them in the tooltip
             var Skins = Rarity.Zip(Names, (first, second) => first + " - " + second);
             ttPopup.SetToolTip(picBox, String.Join("\n", Skins));
+        }
+
+        public DataSet Deserialize(string nameOfCase)
+        {
+            DataSet dataSet = new DataSet();
+            try
+            {
+                //deserialize .json file
+                string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\" + nameOfCase + ".json");
+                string json = File.ReadAllText(fileName);
+                dataSet = JsonConvert.DeserializeObject<DataSet>(json);
+            }
+            catch
+            {
+                string message = "Cannot Load JSON Files. \nThe program will now close.";
+                string title = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    System.Environment.Exit(0);
+                }
+            }
+            return dataSet;
+        }
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            //open search
+            FrmSearch frmSearch = new FrmSearch();
+            frmSearch.Show();
         }
     }
 }

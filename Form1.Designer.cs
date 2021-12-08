@@ -1,7 +1,7 @@
 ﻿
 namespace Project
 {
-    partial class frmMain
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Project
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panelCases = new System.Windows.Forms.Panel();
             this.Operation_Riptide_Case = new System.Windows.Forms.PictureBox();
             this.Snakebite_Case = new System.Windows.Forms.PictureBox();
@@ -56,20 +56,21 @@ namespace Project
             this.Falchion_Case = new System.Windows.Forms.PictureBox();
             this.Chroma_2_Case = new System.Windows.Forms.PictureBox();
             this.Chroma_Case = new System.Windows.Forms.PictureBox();
-            this.Operation_Vanguard_Case = new System.Windows.Forms.PictureBox();
+            this.Operation_Vanguard_Weapon_Case = new System.Windows.Forms.PictureBox();
             this.eSports_2014_Summer_Case = new System.Windows.Forms.PictureBox();
-            this.Operation_Breakout_Case = new System.Windows.Forms.PictureBox();
-            this.Huntsman_Case = new System.Windows.Forms.PictureBox();
-            this.Operation_Phoenix_Case = new System.Windows.Forms.PictureBox();
-            this.Weapon_Case_3 = new System.Windows.Forms.PictureBox();
-            this.Winter_Offensive_Case = new System.Windows.Forms.PictureBox();
+            this.Operation_Breakout_Weapon_Case = new System.Windows.Forms.PictureBox();
+            this.Huntsman_Weapon_Case = new System.Windows.Forms.PictureBox();
+            this.Operation_Phoenix_Weapon_Case = new System.Windows.Forms.PictureBox();
+            this.CS__GO_Weapon_Case_3 = new System.Windows.Forms.PictureBox();
+            this.Winter_Offensive_Weapon_Case = new System.Windows.Forms.PictureBox();
             this.eSports_2013_Winter_Case = new System.Windows.Forms.PictureBox();
-            this.Weapon_Case_2 = new System.Windows.Forms.PictureBox();
+            this.CS__GO_Weapon_Case_2 = new System.Windows.Forms.PictureBox();
             this.Operation_Bravo_Case = new System.Windows.Forms.PictureBox();
             this.eSports_2013_Case = new System.Windows.Forms.PictureBox();
-            this.Weapon_Case_1 = new System.Windows.Forms.PictureBox();
+            this.CS__GO_Weapon_Case = new System.Windows.Forms.PictureBox();
             this.picSelect = new System.Windows.Forms.PictureBox();
             this.ttPopup = new System.Windows.Forms.ToolTip(this.components);
+            this.BtnSearch = new System.Windows.Forms.Button();
             this.panelCases.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Operation_Riptide_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Snakebite_Case)).BeginInit();
@@ -95,18 +96,18 @@ namespace Project
             ((System.ComponentModel.ISupportInitialize)(this.Falchion_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Chroma_2_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Chroma_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Vanguard_Case)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Vanguard_Weapon_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2014_Summer_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Breakout_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Huntsman_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Phoenix_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Winter_Offensive_Case)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Breakout_Weapon_Case)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Huntsman_Weapon_Case)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Phoenix_Weapon_Case)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Winter_Offensive_Weapon_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2013_Winter_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Operation_Bravo_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2013_Case)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSelect)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,18 +141,18 @@ namespace Project
             this.panelCases.Controls.Add(this.Falchion_Case);
             this.panelCases.Controls.Add(this.Chroma_2_Case);
             this.panelCases.Controls.Add(this.Chroma_Case);
-            this.panelCases.Controls.Add(this.Operation_Vanguard_Case);
+            this.panelCases.Controls.Add(this.Operation_Vanguard_Weapon_Case);
             this.panelCases.Controls.Add(this.eSports_2014_Summer_Case);
-            this.panelCases.Controls.Add(this.Operation_Breakout_Case);
-            this.panelCases.Controls.Add(this.Huntsman_Case);
-            this.panelCases.Controls.Add(this.Operation_Phoenix_Case);
-            this.panelCases.Controls.Add(this.Weapon_Case_3);
-            this.panelCases.Controls.Add(this.Winter_Offensive_Case);
+            this.panelCases.Controls.Add(this.Operation_Breakout_Weapon_Case);
+            this.panelCases.Controls.Add(this.Huntsman_Weapon_Case);
+            this.panelCases.Controls.Add(this.Operation_Phoenix_Weapon_Case);
+            this.panelCases.Controls.Add(this.CS__GO_Weapon_Case_3);
+            this.panelCases.Controls.Add(this.Winter_Offensive_Weapon_Case);
             this.panelCases.Controls.Add(this.eSports_2013_Winter_Case);
-            this.panelCases.Controls.Add(this.Weapon_Case_2);
+            this.panelCases.Controls.Add(this.CS__GO_Weapon_Case_2);
             this.panelCases.Controls.Add(this.Operation_Bravo_Case);
             this.panelCases.Controls.Add(this.eSports_2013_Case);
-            this.panelCases.Controls.Add(this.Weapon_Case_1);
+            this.panelCases.Controls.Add(this.CS__GO_Weapon_Case);
             this.panelCases.Location = new System.Drawing.Point(12, 60);
             this.panelCases.Name = "panelCases";
             this.panelCases.Size = new System.Drawing.Size(1183, 594);
@@ -421,16 +422,16 @@ namespace Project
             this.Chroma_Case.TabIndex = 48;
             this.Chroma_Case.TabStop = false;
             // 
-            // Operation_Vanguard_Case
+            // Operation_Vanguard_Weapon_Case
             // 
-            this.Operation_Vanguard_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Operation_Vanguard_Case.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Operation_Vanguard_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Vanguard_Case.Image")));
-            this.Operation_Vanguard_Case.Location = new System.Drawing.Point(880, 594);
-            this.Operation_Vanguard_Case.Name = "Operation_Vanguard_Case";
-            this.Operation_Vanguard_Case.Size = new System.Drawing.Size(256, 256);
-            this.Operation_Vanguard_Case.TabIndex = 47;
-            this.Operation_Vanguard_Case.TabStop = false;
+            this.Operation_Vanguard_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Operation_Vanguard_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Operation_Vanguard_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Vanguard_Weapon_Case.Image")));
+            this.Operation_Vanguard_Weapon_Case.Location = new System.Drawing.Point(880, 594);
+            this.Operation_Vanguard_Weapon_Case.Name = "Operation_Vanguard_Weapon_Case";
+            this.Operation_Vanguard_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.Operation_Vanguard_Weapon_Case.TabIndex = 47;
+            this.Operation_Vanguard_Weapon_Case.TabStop = false;
             // 
             // eSports_2014_Summer_Case
             // 
@@ -443,60 +444,60 @@ namespace Project
             this.eSports_2014_Summer_Case.TabIndex = 46;
             this.eSports_2014_Summer_Case.TabStop = false;
             // 
-            // Operation_Breakout_Case
+            // Operation_Breakout_Weapon_Case
             // 
-            this.Operation_Breakout_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Operation_Breakout_Case.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Operation_Breakout_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Breakout_Case.Image")));
-            this.Operation_Breakout_Case.Location = new System.Drawing.Point(312, 594);
-            this.Operation_Breakout_Case.Name = "Operation_Breakout_Case";
-            this.Operation_Breakout_Case.Size = new System.Drawing.Size(256, 256);
-            this.Operation_Breakout_Case.TabIndex = 45;
-            this.Operation_Breakout_Case.TabStop = false;
+            this.Operation_Breakout_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Operation_Breakout_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Operation_Breakout_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Breakout_Weapon_Case.Image")));
+            this.Operation_Breakout_Weapon_Case.Location = new System.Drawing.Point(312, 594);
+            this.Operation_Breakout_Weapon_Case.Name = "Operation_Breakout_Weapon_Case";
+            this.Operation_Breakout_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.Operation_Breakout_Weapon_Case.TabIndex = 45;
+            this.Operation_Breakout_Weapon_Case.TabStop = false;
             // 
-            // Huntsman_Case
+            // Huntsman_Weapon_Case
             // 
-            this.Huntsman_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Huntsman_Case.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Huntsman_Case.Image = ((System.Drawing.Image)(resources.GetObject("Huntsman_Case.Image")));
-            this.Huntsman_Case.Location = new System.Drawing.Point(28, 594);
-            this.Huntsman_Case.Name = "Huntsman_Case";
-            this.Huntsman_Case.Size = new System.Drawing.Size(256, 256);
-            this.Huntsman_Case.TabIndex = 44;
-            this.Huntsman_Case.TabStop = false;
+            this.Huntsman_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Huntsman_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Huntsman_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("Huntsman_Weapon_Case.Image")));
+            this.Huntsman_Weapon_Case.Location = new System.Drawing.Point(28, 594);
+            this.Huntsman_Weapon_Case.Name = "Huntsman_Weapon_Case";
+            this.Huntsman_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.Huntsman_Weapon_Case.TabIndex = 44;
+            this.Huntsman_Weapon_Case.TabStop = false;
             // 
-            // Operation_Phoenix_Case
+            // Operation_Phoenix_Weapon_Case
             // 
-            this.Operation_Phoenix_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Operation_Phoenix_Case.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Operation_Phoenix_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Phoenix_Case.Image")));
-            this.Operation_Phoenix_Case.Location = new System.Drawing.Point(880, 312);
-            this.Operation_Phoenix_Case.Name = "Operation_Phoenix_Case";
-            this.Operation_Phoenix_Case.Size = new System.Drawing.Size(256, 256);
-            this.Operation_Phoenix_Case.TabIndex = 43;
-            this.Operation_Phoenix_Case.TabStop = false;
+            this.Operation_Phoenix_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Operation_Phoenix_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Operation_Phoenix_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("Operation_Phoenix_Weapon_Case.Image")));
+            this.Operation_Phoenix_Weapon_Case.Location = new System.Drawing.Point(880, 312);
+            this.Operation_Phoenix_Weapon_Case.Name = "Operation_Phoenix_Weapon_Case";
+            this.Operation_Phoenix_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.Operation_Phoenix_Weapon_Case.TabIndex = 43;
+            this.Operation_Phoenix_Weapon_Case.TabStop = false;
             // 
-            // Weapon_Case_3
+            // CS__GO_Weapon_Case_3
             // 
-            this.Weapon_Case_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Weapon_Case_3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Weapon_Case_3.Image = ((System.Drawing.Image)(resources.GetObject("Weapon_Case_3.Image")));
-            this.Weapon_Case_3.Location = new System.Drawing.Point(596, 312);
-            this.Weapon_Case_3.Name = "Weapon_Case_3";
-            this.Weapon_Case_3.Size = new System.Drawing.Size(256, 256);
-            this.Weapon_Case_3.TabIndex = 42;
-            this.Weapon_Case_3.TabStop = false;
+            this.CS__GO_Weapon_Case_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CS__GO_Weapon_Case_3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CS__GO_Weapon_Case_3.Image = ((System.Drawing.Image)(resources.GetObject("CS__GO_Weapon_Case_3.Image")));
+            this.CS__GO_Weapon_Case_3.Location = new System.Drawing.Point(596, 312);
+            this.CS__GO_Weapon_Case_3.Name = "CS__GO_Weapon_Case_3";
+            this.CS__GO_Weapon_Case_3.Size = new System.Drawing.Size(256, 256);
+            this.CS__GO_Weapon_Case_3.TabIndex = 42;
+            this.CS__GO_Weapon_Case_3.TabStop = false;
             // 
-            // Winter_Offensive_Case
+            // Winter_Offensive_Weapon_Case
             // 
-            this.Winter_Offensive_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Winter_Offensive_Case.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Winter_Offensive_Case.Image = ((System.Drawing.Image)(resources.GetObject("Winter_Offensive_Case.Image")));
-            this.Winter_Offensive_Case.Location = new System.Drawing.Point(312, 312);
-            this.Winter_Offensive_Case.Name = "Winter_Offensive_Case";
-            this.Winter_Offensive_Case.Size = new System.Drawing.Size(256, 256);
-            this.Winter_Offensive_Case.TabIndex = 41;
-            this.Winter_Offensive_Case.TabStop = false;
+            this.Winter_Offensive_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Winter_Offensive_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Winter_Offensive_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("Winter_Offensive_Weapon_Case.Image")));
+            this.Winter_Offensive_Weapon_Case.Location = new System.Drawing.Point(312, 312);
+            this.Winter_Offensive_Weapon_Case.Name = "Winter_Offensive_Weapon_Case";
+            this.Winter_Offensive_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.Winter_Offensive_Weapon_Case.TabIndex = 41;
+            this.Winter_Offensive_Weapon_Case.TabStop = false;
             // 
             // eSports_2013_Winter_Case
             // 
@@ -509,16 +510,16 @@ namespace Project
             this.eSports_2013_Winter_Case.TabIndex = 40;
             this.eSports_2013_Winter_Case.TabStop = false;
             // 
-            // Weapon_Case_2
+            // CS__GO_Weapon_Case_2
             // 
-            this.Weapon_Case_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Weapon_Case_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Weapon_Case_2.Image = ((System.Drawing.Image)(resources.GetObject("Weapon_Case_2.Image")));
-            this.Weapon_Case_2.Location = new System.Drawing.Point(880, 28);
-            this.Weapon_Case_2.Name = "Weapon_Case_2";
-            this.Weapon_Case_2.Size = new System.Drawing.Size(256, 256);
-            this.Weapon_Case_2.TabIndex = 39;
-            this.Weapon_Case_2.TabStop = false;
+            this.CS__GO_Weapon_Case_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CS__GO_Weapon_Case_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CS__GO_Weapon_Case_2.Image = ((System.Drawing.Image)(resources.GetObject("CS__GO_Weapon_Case_2.Image")));
+            this.CS__GO_Weapon_Case_2.Location = new System.Drawing.Point(880, 28);
+            this.CS__GO_Weapon_Case_2.Name = "CS__GO_Weapon_Case_2";
+            this.CS__GO_Weapon_Case_2.Size = new System.Drawing.Size(256, 256);
+            this.CS__GO_Weapon_Case_2.TabIndex = 39;
+            this.CS__GO_Weapon_Case_2.TabStop = false;
             // 
             // Operation_Bravo_Case
             // 
@@ -542,16 +543,16 @@ namespace Project
             this.eSports_2013_Case.TabIndex = 37;
             this.eSports_2013_Case.TabStop = false;
             // 
-            // Weapon_Case_1
+            // CS__GO_Weapon_Case
             // 
-            this.Weapon_Case_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Weapon_Case_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Weapon_Case_1.Image = ((System.Drawing.Image)(resources.GetObject("Weapon_Case_1.Image")));
-            this.Weapon_Case_1.Location = new System.Drawing.Point(28, 28);
-            this.Weapon_Case_1.Name = "Weapon_Case_1";
-            this.Weapon_Case_1.Size = new System.Drawing.Size(256, 256);
-            this.Weapon_Case_1.TabIndex = 36;
-            this.Weapon_Case_1.TabStop = false;
+            this.CS__GO_Weapon_Case.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CS__GO_Weapon_Case.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CS__GO_Weapon_Case.Image = ((System.Drawing.Image)(resources.GetObject("CS__GO_Weapon_Case.Image")));
+            this.CS__GO_Weapon_Case.Location = new System.Drawing.Point(28, 28);
+            this.CS__GO_Weapon_Case.Name = "CS__GO_Weapon_Case";
+            this.CS__GO_Weapon_Case.Size = new System.Drawing.Size(256, 256);
+            this.CS__GO_Weapon_Case.TabIndex = 36;
+            this.CS__GO_Weapon_Case.TabStop = false;
             // 
             // picSelect
             // 
@@ -569,19 +570,30 @@ namespace Project
             this.ttPopup.InitialDelay = 100;
             this.ttPopup.ReshowDelay = 20;
             // 
-            // frmMain
+            // BtnSearch
+            // 
+            this.BtnSearch.Location = new System.Drawing.Point(1034, 15);
+            this.BtnSearch.Name = "BtnSearch";
+            this.BtnSearch.Size = new System.Drawing.Size(160, 32);
+            this.BtnSearch.TabIndex = 37;
+            this.BtnSearch.Text = "Search For Skins";
+            this.BtnSearch.UseVisualStyleBackColor = true;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
+            // 
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1206, 661);
+            this.Controls.Add(this.BtnSearch);
             this.Controls.Add(this.picSelect);
             this.Controls.Add(this.panelCases);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1222, 700);
             this.MinimumSize = new System.Drawing.Size(1222, 700);
-            this.Name = "frmMain";
+            this.Name = "FrmMain";
             this.Text = "CS:GO Case Opener";
             this.panelCases.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Operation_Riptide_Case)).EndInit();
@@ -608,18 +620,18 @@ namespace Project
             ((System.ComponentModel.ISupportInitialize)(this.Falchion_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Chroma_2_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Chroma_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Vanguard_Case)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Vanguard_Weapon_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2014_Summer_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Breakout_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Huntsman_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Operation_Phoenix_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Winter_Offensive_Case)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Breakout_Weapon_Case)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Huntsman_Weapon_Case)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Operation_Phoenix_Weapon_Case)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Winter_Offensive_Weapon_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2013_Winter_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Operation_Bravo_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eSports_2013_Case)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Weapon_Case_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CS__GO_Weapon_Case)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSelect)).EndInit();
             this.ResumeLayout(false);
 
@@ -628,17 +640,17 @@ namespace Project
         #endregion
         private System.Windows.Forms.Panel panelCases;
         private System.Windows.Forms.PictureBox picSelect;
-        private System.Windows.Forms.PictureBox Weapon_Case_2;
+        private System.Windows.Forms.PictureBox CS__GO_Weapon_Case_2;
         private System.Windows.Forms.PictureBox Operation_Bravo_Case;
         private System.Windows.Forms.PictureBox eSports_2013_Case;
-        private System.Windows.Forms.PictureBox Weapon_Case_1;
-        private System.Windows.Forms.PictureBox Operation_Vanguard_Case;
+        private System.Windows.Forms.PictureBox CS__GO_Weapon_Case;
+        private System.Windows.Forms.PictureBox Operation_Vanguard_Weapon_Case;
         private System.Windows.Forms.PictureBox eSports_2014_Summer_Case;
-        private System.Windows.Forms.PictureBox Operation_Breakout_Case;
-        private System.Windows.Forms.PictureBox Huntsman_Case;
-        private System.Windows.Forms.PictureBox Operation_Phoenix_Case;
-        private System.Windows.Forms.PictureBox Weapon_Case_3;
-        private System.Windows.Forms.PictureBox Winter_Offensive_Case;
+        private System.Windows.Forms.PictureBox Operation_Breakout_Weapon_Case;
+        private System.Windows.Forms.PictureBox Huntsman_Weapon_Case;
+        private System.Windows.Forms.PictureBox Operation_Phoenix_Weapon_Case;
+        private System.Windows.Forms.PictureBox CS__GO_Weapon_Case_3;
+        private System.Windows.Forms.PictureBox Winter_Offensive_Weapon_Case;
         private System.Windows.Forms.PictureBox eSports_2013_Winter_Case;
         private System.Windows.Forms.PictureBox Operation_Riptide_Case;
         private System.Windows.Forms.PictureBox Snakebite_Case;
@@ -665,6 +677,7 @@ namespace Project
         private System.Windows.Forms.PictureBox Chroma_2_Case;
         private System.Windows.Forms.PictureBox Chroma_Case;
         private System.Windows.Forms.ToolTip ttPopup;
+        private System.Windows.Forms.Button BtnSearch;
     }
 }
 

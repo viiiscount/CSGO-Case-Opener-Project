@@ -17,14 +17,15 @@ namespace Project
         public frmOpener(string nameOfCase)
         {
             InitializeComponent();
+            string colour = "window";
 
             //set the name of the form to name of the case
-            string realName = nameOfCase.Replace('_', ' ');
+            string realName = nameOfCase.Replace("__", ":").Replace('_', ' ');
             this.Text = realName;
+            double casePrice = SetCasePrice(realName);
 
             //open the correct .json file, deserialize the file and place data into a datatable
-            string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\" + nameOfCase + ".json");
-            DataSet dataSet = Deserialize(fileName);
+            DataSet dataSet = Deserialize(nameOfCase);
             DataTable skinTable = dataSet.Tables[nameOfCase];
 
             //create lists of the labels and pictureboxes that will be used
@@ -40,37 +41,51 @@ namespace Project
                 //set text colour
                 if (row["Rarity"].ToString() == "Mil-Spec")
                 {
-                    labels[i].ForeColor = System.Drawing.Color.DodgerBlue;
-                    pictures[i].BackColor = System.Drawing.Color.DodgerBlue;
+                    colour = "DodgerBlue";
                 }
                 else if (row["Rarity"].ToString() == "Restricted")
                 {
-                    labels[i].ForeColor = System.Drawing.Color.MediumOrchid;
-                    pictures[i].BackColor = System.Drawing.Color.MediumOrchid;
+                    colour = "MediumOrchid";
                 }
                 else if (row["Rarity"].ToString() == "Classified")
                 {
-                    labels[i].ForeColor = System.Drawing.Color.HotPink;
-                    pictures[i].BackColor = System.Drawing.Color.HotPink;
+                    colour = "HotPink";
 
                 }
                 else if (row["Rarity"].ToString() == "Covert")
                 {
-                    labels[i].ForeColor = System.Drawing.Color.Tomato;
-                    pictures[i].BackColor = System.Drawing.Color.Tomato;
+                    colour = "Tomato";
                 }
 
                 //get name of skin from datatable then add it to the label
                 string skinName = row["Name"].ToString();
                 labels[i].Show();
                 labels[i].Text = skinName;
-
+                
                 //get picture filepath then resize and add it to the picturebox
                 string picName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Directory\"
                 + skinName.Replace('|', '-') + ".png").Replace("Directory", nameOfCase);
                 pictures[i].Show();
-                pictures[i].Image = Image.FromFile(picName);
+                try
+                {
+                    pictures[i].Image = Image.FromFile(picName);
+                }
+                catch
+                {
+                    string message = "Cannot Load Icons. \nThe program will now close.";
+                    string title = "Error";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    DialogResult result = MessageBox.Show(message, title, buttons);
+                    if (result == DialogResult.OK)
+                    {
+                        System.Environment.Exit(0);
+                    }
+                }
                 pictures[i].SizeMode = PictureBoxSizeMode.StretchImage;
+
+                //set colour
+                labels[i].ForeColor = System.Drawing.Color.FromName(colour);
+                pictures[i].BackColor = System.Drawing.Color.FromName(colour);
 
                 //increment i so all items done
                 i++;
@@ -83,110 +98,168 @@ namespace Project
 
             pictures[i].Show();
             pictures[i].BackColor = System.Drawing.Color.Goldenrod;
-            pictures[i].Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\knife.png"));
+            try
+            {
+                pictures[i].Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\knife.png"));
+            }
+            catch
+            {
+                string message = "Cannot Load Icons. \nThe program will now close.";
+                string title = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    System.Environment.Exit(0);
+                }
+            }
             pictures[i].SizeMode = PictureBoxSizeMode.StretchImage;
 
             //route roll button to custom handler
             //this is so i can send "nameOfCase" and "skinTable" to RNG()
-            btnRoll.Click += (sender, EventArgs) => { btnRoll_Click(sender, EventArgs, skinTable, nameOfCase); };
-            timerAutoRoll.Tick += (sender, EventArgs) => { timer_Tick(sender, EventArgs, skinTable, nameOfCase); };
+            btnRoll.Click += (sender, EventArgs) => { BtnRoll_Click(skinTable, nameOfCase, casePrice); };
+            timerAutoRoll.Tick += (sender, EventArgs) => { Timer_Tick(skinTable, nameOfCase, casePrice); };
         }
 
-        private async void btnRoll_Click(object sender, EventArgs e, DataTable skinTable, string nameOfCase)
+        private async void BtnRoll_Click(DataTable skinTable, string nameOfCase, double casePrice)
         {
             //disables button so you cant spam the program
             //this to stop overlapping animations and from the user interfering with the auto-roll
             btnRoll.Enabled = false;
 
             //checks if auto-roll/animation skip is enabled
-            if (chkAutoRoll.Checked == true)
+            if (chkAutoRoll.Checked == false)
+            {
+                if (chkAnimationSkip.Checked == false)
+                {
+                    Animation();
+                    await Task.Delay(3000);
+                }
+                RNG(skinTable, nameOfCase, casePrice);
+                await Task.Delay(400);
+                btnRoll.Enabled = true;
+            }
+            else
             {
                 timerAutoRoll.Start();
-            }
-            else if (chkAutoRoll.Checked == false && chkAnimationSkip.Checked == false)
-            {
-                Animation();
-                await Task.Delay(3000);
-                RNG(skinTable, nameOfCase);
-                btnRoll.Enabled = true;
-            }
-            else if (chkAutoRoll.Checked == false && chkAnimationSkip.Checked == true)
-            {
-                RNG(skinTable, nameOfCase);
-                await Task.Delay(500);
-                btnRoll.Enabled = true;
+                this.ControlBox = false;
             }
         }
 
-        private async void timer_Tick(object sender, EventArgs e, DataTable skinTable, string nameOfCase)
+        private async void Timer_Tick(DataTable skinTable, string nameOfCase, double casePrice)
         {
             //auto-roll feature
-            if (chkAnimationSkip.Checked == true && chkAutoRoll.Checked == true)
+            if (chkAutoRoll.Checked == true)
             {
-                timerAutoRoll.Interval = 1000;
-                await Task.Delay(1000);
-                RNG(skinTable, nameOfCase);
-            }
-            else if (chkAutoRoll.Checked == true)
-            {
-                timerAutoRoll.Interval = 4000;
-                Animation();
-                await Task.Delay(3000);
-                RNG(skinTable, nameOfCase);
+                if (chkAnimationSkip.Checked == false)
+                {
+                    timerAutoRoll.Interval = 4000;
+                    Animation();
+                    await Task.Delay(3000);
+                }
+                else
+                {
+                    timerAutoRoll.Interval = 800;
+                    await Task.Delay(800);
+                }
+                RNG(skinTable, nameOfCase, casePrice);
             }
             else
             {
                 timerAutoRoll.Stop();
                 btnRoll.Enabled = true;
+                this.ControlBox = true;
             }
         }
 
-        public DataSet Deserialize(string fileName)
+        public DataSet Deserialize(string nameOfCase)
         {
-            //deserialize .json file
-            string json = File.ReadAllText(fileName);
-            DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(json);
+            DataSet dataSet = new DataSet();
+            try
+            {
+                //deserialize .json file
+                string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\" + nameOfCase + ".json");
+                string json = File.ReadAllText(fileName);
+                dataSet = JsonConvert.DeserializeObject<DataSet>(json);
+            }
+            catch
+            {
+                string message;
+                if (nameOfCase.Contains("exotics"))
+                {
+                    message = "Cannot Load JSON Files for the exotic weapons. \nThe program will now close.";
+                }
+                else
+                {
+                    message = "Cannot Load JSON Files. \nThe program will now close.";
+                }
+                string title = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    System.Environment.Exit(0);
+                }
+            }
             return dataSet;
         }
 
         public async void Animation()
         {
-            //animation using 5 pictures to do a countdown
-            await Task.Delay(500);
-            picReward.BackColor = System.Drawing.Color.White;
-            picReward.SizeMode = PictureBoxSizeMode.StretchImage;
-            picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\5.png"));
-            await Task.Delay(500);
-            picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\4.png"));
-            await Task.Delay(500);
-            picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\3.png"));
-            await Task.Delay(500);
-            picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\2.png"));
-            await Task.Delay(500);
-            picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\1.png"));
+            try
+            {
+                //animation using 5 pictures to do a countdown
+                await Task.Delay(500);
+                picReward.BackColor = System.Drawing.Color.White;
+                picReward.SizeMode = PictureBoxSizeMode.StretchImage;
+                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\5.png"));
+                await Task.Delay(500);
+                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\4.png"));
+                await Task.Delay(500);
+                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\3.png"));
+                await Task.Delay(500);
+                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\2.png"));
+                await Task.Delay(500);
+                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Animation\1.png"));
+            }
+            catch
+            {
+                string message = "Cannot Load Animation. \nThe program will now close.";
+                string title = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    System.Environment.Exit(0);
+                }
+            }
         }
 
-        public void RNG(DataTable skinTable, string nameOfCase)
+        public void RNG(DataTable skinTable, string nameOfCase, double casePrice)
         {
             //set up variables
             List<string> Names = new List<string>();
+            DataSet dataSet = new DataSet();
+            DataTable listTable = new DataTable();
+            DataTable exoticTable = new DataTable();
+            DataTable finishTable = new DataTable();
+
             bool exotic = false;
-            string skinName;
+            string skinName = null;
             string finishName = null;
-            string quality;
-            DataSet dataSet;
-            DataTable listTable = null;
-            DataTable exoticTable = null;
-            DataTable finishTable = null;
+            string quality = null;
+            string colour = "window";
+            double skinPrice = 0.00;    
 
             //set up RNG
             Random r = new Random();
             int gen = r.Next(0, 10000);
+            double priceRandom = r.NextDouble() * 0.5 + 0.5;
             if (gen < 7992)
             {
                 //set colour to blue
-                picReward.BackColor = System.Drawing.Color.DodgerBlue;
-                lblName.ForeColor = System.Drawing.Color.DodgerBlue;
+                colour = "DodgerBlue";
+                skinPrice = Math.Round(1.90 - (1.4 * priceRandom), 2);
 
                 //get the names of skins with rarity "Mil-Spec" and add them to the list
                 Names = skinTable.Rows.OfType<DataRow>()
@@ -196,8 +269,8 @@ namespace Project
             else if (gen < 9590)
             {
                 //set colour to purple
-                picReward.BackColor = System.Drawing.Color.MediumOrchid;
-                lblName.ForeColor = System.Drawing.Color.MediumOrchid;
+                colour = "MediumOrchid";
+                skinPrice = Math.Round(10.00 - (8 * priceRandom), 2);
 
                 //get the names of skins with rarity "Restricted" and add them to the list
                 Names = skinTable.Rows.OfType<DataRow>()
@@ -207,8 +280,8 @@ namespace Project
             else if (gen < 9910)
             {
                 //set colour to pink
-                picReward.BackColor = System.Drawing.Color.HotPink;
-                lblName.ForeColor = System.Drawing.Color.HotPink;
+                colour = "HotPink";
+                skinPrice = Math.Round(32.00 - (24 * priceRandom), 2);
 
                 //get the names of skins with rarity "Classified" and add them to the list
                 Names = skinTable.Rows.OfType<DataRow>()
@@ -218,8 +291,8 @@ namespace Project
             else if (gen < 9974)
             {
                 //set colour to red
-                picReward.BackColor = System.Drawing.Color.Tomato;
-                lblName.ForeColor = System.Drawing.Color.Tomato;
+                colour = "Tomato";
+                skinPrice = Math.Round(130.00 - (100 * priceRandom), 2);
 
                 //get the names of skins with rarity "Covert" and add them to the list
                 Names = skinTable.Rows.OfType<DataRow>()
@@ -229,20 +302,20 @@ namespace Project
             else
             {
                 //set colour to gold
-                picReward.BackColor = System.Drawing.Color.Goldenrod;
-                lblName.ForeColor = System.Drawing.Color.Goldenrod;
+                colour = "Goldenrod";
+                skinPrice = Math.Round(1100 - (1000 * priceRandom), 2);
 
                 //deserialize the .json files that contain exotic data
-                string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\exotics\Case_Exotic_List.json");
-                dataSet = Deserialize(fileName);
+                string jsonName = @"exotics\Case_Exotic_List";
+                dataSet = Deserialize(jsonName);
                 listTable = dataSet.Tables["Case_Exotic_List"];
 
-                fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\exotics\Exotics.json");
-                dataSet = Deserialize(fileName);
+                jsonName = @"exotics\Exotics";
+                dataSet = Deserialize(jsonName);
                 exoticTable = dataSet.Tables["Exotics"];
 
-                fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"json files\exotics\Finishes.json");
-                dataSet = Deserialize(fileName);
+                jsonName = @"exotics\Finishes";
+                dataSet = Deserialize(jsonName);
                 finishTable = dataSet.Tables["Finishes"];
 
                 //set exotic to true so that the functions get the correct information
@@ -260,9 +333,14 @@ namespace Project
             {
                 finishName = GetExoticFinish(r, nameOfCase, listTable, finishTable);
                 quality = GetFloatAndQuality(finishTable, finishName);
-            }    
+            }
             skinName = GetStatTrak(r, skinName, finishName, exotic);
-            SetSkinPrice(skinName, finishName, quality, exotic);
+            skinPrice = SetSkinPrice(skinName, finishName, quality, skinPrice, exotic);
+            listSkins.Items.Insert(0, skinName + " - $" + skinPrice);
+            picReward.BackColor = System.Drawing.Color.FromName(colour);
+            lblName.ForeColor = System.Drawing.Color.FromName(colour);
+            listSkins.Items[0].BackColor = System.Drawing.Color.FromName(colour);
+            CalcProfit(skinPrice, casePrice);
         }
 
         public string GetSkinName(Random r, DataTable listTable, DataTable exoticTable, List<string> Names, string nameOfCase, bool exotic)
@@ -316,19 +394,34 @@ namespace Project
 
         public void SetRewardIcon(string skinName, string nameOfCase, bool exotic)
         {
+            string picName;
             if (exotic == false)
             {
                 //set icon
-                string picName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Directory\"
-                + skinName.Replace('|', '-') + ".png").Replace("Directory", nameOfCase);
-                picReward.Image = Image.FromFile(picName);
-                picReward.SizeMode = PictureBoxSizeMode.StretchImage;
+                picName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Directory\"
+                + skinName.Replace('|', '-') + ".png").Replace("Directory", nameOfCase);          
             }
             else
             {
                 //set exotic photo
-                picReward.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Exotics\Knives\" +skinName + ".png"));
+                picName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"icons\Exotics\Knives\" + skinName + ".png");
+            }
+
+            try
+            {
+                picReward.Image = Image.FromFile(picName);
                 picReward.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            catch
+            {
+                string message = "Cannot Load Icons. \nThe program will now close.";
+                string title = "Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    System.Environment.Exit(0);
+                }
             }
         }
 
@@ -347,7 +440,7 @@ namespace Project
             double result = r.NextDouble();
             if (gen <= 2)
             {
-                result = result * 0.07;
+                result *= 0.07;
             }
             else if (gen > 2 && gen <= 26)
             {
@@ -428,7 +521,7 @@ namespace Project
             if (exotic == true)
             {
                 //set correct formatting for exotics
-                if (StatTrakGen == 0)
+                if (StatTrakGen == 0 && skinName.Contains("Gloves") == false)
                 {
                     skinName = "★ StatTrak " + skinName;
                 }
@@ -458,9 +551,42 @@ namespace Project
             return skinName;
         }
 
-        public void SetSkinPrice(string skinName, string finishName, string quality, bool exotic)
+        public double SetCasePrice(string realName)
+        {
+            string id = realName;
+            double price;
+            double cost;
+
+            //pull API data from last year to try and get a good price for an item
+            //some items (very expensive items) do not have price data since they don't sell often
+            id += "&time=365";
+
+            //pull from API
+            string json = API(id);
+            PriceAPI casePrice = JsonConvert.DeserializeObject<PriceAPI>(json);
+
+            //if no price is there/cannot connect to API, it is handled and static values are used instead.
+
+            if (casePrice.success == false)
+            {
+                price = 1.00;
+            }
+            else
+            {
+                price = casePrice.average_price;
+            }
+            cost = price + 2.50;
+
+            //display
+            lblCasePrice.Text = "Case Price: $" + price.ToString();
+            lblCost.Text = "Cost Per Open: $" + cost;
+            return price;
+        }
+
+        public double SetSkinPrice(string skinName, string finishName, string quality, double importPrice, bool exotic)
         {
             string id;
+            double price;
 
             //if skin is exotic or not
             if (exotic == true && finishName == "Vanilla")
@@ -474,26 +600,25 @@ namespace Project
 
             //pull API data from last year to try and get a good price for an item
             //some items (very expensive items) do not have price data since they don't sell often
-            id = id + "&time=365";
+            id += "&time=365";
 
             //pull from API
             string json = API(id);
-            string priceString;
             PriceAPI skinPrice = JsonConvert.DeserializeObject<PriceAPI>(json);
 
-            //if no price is there/cannot connect to API, it is handled
-            if (skinPrice == null)
+            //if no price is there/cannot connect to API, it is handled and static values are used instead.
+            if (skinPrice.success == false)
             {
-                priceString = "Server Unavailable, Try Again Later.";
+                price = importPrice;
             }
             else
             {
-                priceString = "$" + skinPrice.average_price.ToString();
+                price = skinPrice.average_price;
             }
 
             //display
-            lblPrice.Show();
-            lblPrice.Text = "Price: " + priceString;
+            lblPrice.Text = "Skin Price: $" + price;
+            return price;
         }
 
         public string API(string id)
@@ -517,9 +642,27 @@ namespace Project
             }
             catch
             {
-                jsonString = "";
+                jsonString = "{\"success\":\"false\"}";
             }
             return jsonString;
+        }
+
+        public void CalcProfit(double skinPrice, double casePrice)
+        {
+            //calculate profit and store the result in a label
+            double oldprofit = Convert.ToDouble(lblProfit.Text.Remove(0, 9));
+            double profit = oldprofit + skinPrice - (casePrice + 2.50);
+            if (profit < 0)
+            {
+                //make colour red if profit is negative
+                lblProfit.ForeColor = System.Drawing.Color.Tomato;
+            }
+            else
+            {
+                //make colour green if profit is positive
+                lblProfit.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            lblProfit.Text = "Profit: $" + profit;
         }
     }
 }

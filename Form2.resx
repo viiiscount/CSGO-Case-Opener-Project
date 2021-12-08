@@ -120,8 +120,17 @@
   <metadata name="timerAutoRoll.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>The "Float" is the value used to determine the Quality.
+There are specific ranges for each Quality:
+- 0.00 - 0.07: Factory New
+- 0.07 - 0.15: Minimal Wear
+- 0.15 - 0.38: Field-Tested
+- 0.38 - 0.45: Well-Worn
+- 0.45 - 1.00: Battle-Scarred</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>56</value>
+    <value>46</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
